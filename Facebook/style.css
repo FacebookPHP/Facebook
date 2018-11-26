@@ -1,0 +1,16 @@
+#login{
+    background-color: lightgrey;
+    width: 25%;
+    padding: 20px 20px 20px 50px;
+    border: solid 2px grey;
+}
+
+h1{
+    color: darkblue;
+    text-align: center;
+    padding: 30px;
+}
+
+body{
+    font-family: Calibri;
+}
