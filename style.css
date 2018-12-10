@@ -9,7 +9,8 @@
 
 h1{
     color: lightgoldenrodyellow;
-    text-align: center;
+    text-align: left;
+    margin-left: 13%;
     padding: 30px;
     font-family: 'Righteous';
 }
@@ -17,7 +18,7 @@ body{
     font-family: 'Oswald';
     background-color: black;
     color: aqua;
-    background-image: url(images/FB/ConnexionFINAL.jpg);
+    background-image: url(images/ConnexionBackground.jpg);
 
 }
 
@@ -182,4 +183,12 @@ ody {
 .title {
     font-family: "Righteous";
 }
-
+.container-fluid {
+   
+}
+header {
+    position: -webkit-sticky;
+    position: sticky;
+       background-image: url(images/BanniereBackground.jpg);
+    text-align: left;
+}
