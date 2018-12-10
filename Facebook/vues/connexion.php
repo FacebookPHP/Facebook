@@ -1,4 +1,4 @@
-<form method="POST" action="../Facebook/traitement/traitco.php">
+<form method="POST" action="../Facebook/index.php?action=traitco">
     <table><tr>
     <td>Nom d'utilisateur :</td><td> <input type="text" id="username" placeholder="Nom d'utilisateur"><br></td>
     </tr><tr>
