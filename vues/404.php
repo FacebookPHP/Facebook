@@ -17,7 +17,7 @@
         <li>Peut-être que taper dans l'url "Starbook.com/RencontresCoquinesdu3eType" vous assurait d'arriver en ces lieux peu fréquentés. </li>
         <li>Enfin, vous cherchiez la page 404 et dans ce cas bravo vous l'avez trouvée.</li>
     </ul>
-    <p>Quoi qu'il en soit, il vous ait encore possible de rejoindre la force en cliquant sur:</p>
+    <p>Quoi qu'il en soit, il vous est encore possible de rejoindre la force en cliquant sur:</p>
     <a href="../index.php">Retour à l'accueil</a>
 </div>
 </section>
