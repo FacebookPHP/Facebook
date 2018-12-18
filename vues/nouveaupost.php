@@ -9,6 +9,6 @@
             </tr>
     
     </table><br>
-    <input type="submit" id="submit" value="Poster">
+    <div id="poster"><input type="submit" id="submit" value="Poster"></div>
     
 </form>
