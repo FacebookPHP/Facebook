@@ -17,9 +17,12 @@ ob_start(); // Je démarre le buffer de sortie : les données à afficher sont s
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
+        <div>
+            
         <header>
-            <h1><a href="index.php?action=accueil">Facebook</a></h1>
+            <h1><a href="index.php?action=accueil">Starbook</a></h1>
         </header>
+            </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col">
@@ -45,7 +48,7 @@ ob_start(); // Je démarre le buffer de sortie : les données à afficher sont s
                     <div id="login">
                     <?php
                         if (isset($_SESSION['id'])) {
-                            echo "<li>Bonjour " . $_SESSION['login'] . " <a href='index.php?action=deconnexion'>Deconnexion</a></li>";
+                            echo "<li>Bonjour " . $_SESSION['username'] . " <a href='index.php?action=deconnexion'>Deconnexion</a></li>";
                         } else {
                             echo '<a href="index.php?action=connexion">Log in</a><br>
                             <a href="index.php?action=inscription">Sign up</a>';

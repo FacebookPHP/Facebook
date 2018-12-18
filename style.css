@@ -186,8 +186,14 @@ header {
     position: fixed;
     top: 0;
     z-index: 200;
-    background-image: url(images/BanniereBackground.jpg);
+    background-image: url(images/Banni%C3%A8reFinale.jpg);
     text-align: left;
+}
+header:hover {
+     border-bottom-style: solid;
+    border-width: thin;
+    border-bottom-color: yellow;
+  box-shadow: 0px 0px 12px #ff0 ;
 }
 input[type=button]{
     color: black;
@@ -225,7 +231,9 @@ input[type=submit]:hover {
 }
 
 .amis, .demandes, .attente {
-   margin-left: 10%;
+  display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
     margin-top: 20px;
 font-family: Righteous;
     font-size: 18pt;
@@ -268,4 +276,9 @@ input[type=search]:hover{
     border-width: thin;
     border-color: yellow;
   box-shadow: 0px 0px 12px #ff0 ;
+}
+
+#poster {
+    display: flex;
+    justify-content: center;
 }
